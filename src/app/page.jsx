@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-6 bg-gray-100">
+    <div className="min-h-screen flex flex-col items-center justify-center gap-6 bg-gray-300">
       <h1 className="text-3xl font-bold">Welcome to My App</h1>
       <div className="flex gap-4">
         <Link href="/login">
